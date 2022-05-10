@@ -82,26 +82,26 @@ Application de gestion de patients réaliser en Java (Framework Spring)
     -La partie web est composé de deux controllers,un concernant les patients et un autre concernant la sécurité 
      -PatientController : C'est là ou nous ferons le mapping des différentes pages HTML : Ajouter un patient via un formulaire,la page principale,modifier un patient,l'index....
       -index:      
-      ![image](https://user-images.githubusercontent.com/102859151/167733419-e8bc1d6b-9251-4ff3-9812-7a18bfcdc74a.png)
+      ![image](https://user-images.githubusercontent.com/102859151/167737741-f83c50c1-1d48-4cb7-a79e-93f64af6dec1.png)
       
       -delete: 
-      ![image](https://user-images.githubusercontent.com/102859151/167733458-dc76c3fe-7281-4a5b-aa0f-abd16c18dd44.png)
+      <img width="397" alt="delete" src="https://user-images.githubusercontent.com/102859151/167738198-8acaf6e1-db86-4439-80db-135ed49d3950.PNG">
       
       -/:
-      ![image](https://user-images.githubusercontent.com/102859151/167733500-ec0fb35d-590f-479d-98a3-aff7de57a7b2.png)
+      ![image](https://user-images.githubusercontent.com/102859151/167737820-e9301d16-8718-43fd-9128-8abc2f2db06a.png)
       
       -patients:
-      ![image](https://user-images.githubusercontent.com/102859151/167733611-5de9c1dc-289e-4bad-8011-98ba5a882165.png)
+      ![image](https://user-images.githubusercontent.com/102859151/167737854-c07b1b0c-0338-424a-af0b-f35e1576e345.png)
       
       -formPatients:
-      ![image](https://user-images.githubusercontent.com/102859151/167733802-0458d053-e16e-4d9c-949d-2a1d3f48a547.png)
+      ![image](https://user-images.githubusercontent.com/102859151/167737878-67ee5337-c806-42aa-9bbb-eff088046218.png)
       
       -save:
-      ![image](https://user-images.githubusercontent.com/102859151/167733964-812cbabb-447c-47a7-9c44-f5ff155a7c72.png)
+      ![image](https://user-images.githubusercontent.com/102859151/167737960-65a68eb9-d4a4-4e0a-b9bb-e464c3ee1604.png)
       
       -editPatient:
-      ![image](https://user-images.githubusercontent.com/102859151/167734175-aea03e3e-3fe5-469f-aede-be328cd47cb9.png)
-      
+      ![image](https://user-images.githubusercontent.com/102859151/167737999-5f8432e2-e921-4c1c-84a6-69b42051f115.png)
+
      -SecurityController: C'est là ou nous ferons le mapping de la page de sécurité :
      ![image](https://user-images.githubusercontent.com/102859151/167734741-a9107449-a17a-45a0-91b5-7a9ff9bc2fbf.png)
      
