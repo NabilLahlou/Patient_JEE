@@ -61,10 +61,13 @@ Application de gestion de patients réaliser en Java (Framework Spring)
    -La classe SecurityServiceImpl contiendra les méthodes cités précédemment:
     -Méthode saveNewUser :
     ![image](https://user-images.githubusercontent.com/102859151/167732001-b380513b-e522-4344-9b77-c002ea516ed9.png)
+    
     -Méthode saveNewRole :
     ![image](https://user-images.githubusercontent.com/102859151/167732062-89cc0c9a-799e-47d6-9af7-10b6baff32a3.png)
+    
     -Méthode addRoleToUser :
     ![image](https://user-images.githubusercontent.com/102859151/167732106-6a2028a2-0449-4d62-af9c-8205d9b84afa.png)
+    
     -Méthode removeRoleFromUser: 
     ![image](https://user-images.githubusercontent.com/102859151/167732166-346cd248-b68d-409f-8f18-6b0ac2793f58.png)
     
@@ -80,16 +83,22 @@ Application de gestion de patients réaliser en Java (Framework Spring)
      -PatientController : C'est là ou nous ferons le mapping des différentes pages HTML : Ajouter un patient via un formulaire,la page principale,modifier un patient,l'index....
       -index:      
       ![image](https://user-images.githubusercontent.com/102859151/167733419-e8bc1d6b-9251-4ff3-9812-7a18bfcdc74a.png)
+      
       -delete: 
       ![image](https://user-images.githubusercontent.com/102859151/167733458-dc76c3fe-7281-4a5b-aa0f-abd16c18dd44.png)
+      
       -/:
       ![image](https://user-images.githubusercontent.com/102859151/167733500-ec0fb35d-590f-479d-98a3-aff7de57a7b2.png)
+      
       -patients:
       ![image](https://user-images.githubusercontent.com/102859151/167733611-5de9c1dc-289e-4bad-8011-98ba5a882165.png)
+      
       -formPatients:
       ![image](https://user-images.githubusercontent.com/102859151/167733802-0458d053-e16e-4d9c-949d-2a1d3f48a547.png)
+      
       -save:
       ![image](https://user-images.githubusercontent.com/102859151/167733964-812cbabb-447c-47a7-9c44-f5ff155a7c72.png)
+      
       -editPatient:
       ![image](https://user-images.githubusercontent.com/102859151/167734175-aea03e3e-3fe5-469f-aede-be328cd47cb9.png)
       
@@ -97,13 +106,17 @@ Application de gestion de patients réaliser en Java (Framework Spring)
      ![image](https://user-images.githubusercontent.com/102859151/167734741-a9107449-a17a-45a0-91b5-7a9ff9bc2fbf.png)
      
      - Dans le fichier PatientMvcApplication,on va manuellement ajouter plusieurs patients au niveau de la base de données ainsi que plusieurs utilisateurs afin de tester si l'application marche ou non.L'annotation @Bean permet d'executer des commandes à chaque lancement de l'application 
+     
      - Ajout de patients:
      ![image](https://user-images.githubusercontent.com/102859151/167736089-9b54c973-ca96-4273-a32a-dae6c90acfeb.png)
+     
      -Ajout des users et role:
      ![image](https://user-images.githubusercontent.com/102859151/167736352-9edee195-21b7-456b-859b-0e77d04c6605.png)
      
      -Pour ce qui est des pages HTML,elles sont présentes dans le dossier template qui contient la page d'accueil,le formulaire des patients,la page de modifications...
+     
      ![image](https://user-images.githubusercontent.com/102859151/167737097-8fcd2a8f-b1b7-4f34-a933-84dd44b134d0.png)
+     
      -Ces pages HTML sont intégrés au niveau du repository GitHub 
 
 
